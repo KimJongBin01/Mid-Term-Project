@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduceStyle.css">
+</head>
+<body>
+    <nav>
+        <h1><i>Introduce Myself</i></h1>
+        <div class="profileBox">
+             <img class="profile" src="myPic2.jpg" alt="내 사진">
+        </div>
+        <br>
+        
+        <ul>
+            <li><a href="#intro"><i>Intro</i></a></li><br>
+            <li><a href="#aboutMe"><i>About me</i></a></li><br>
+            <li><a href="#licenses"><i>Licenses</i></a></li><br>
+            <li><a href="#contacts"><i>Contacts</i></a></li><br>
+        </ul>
+    </nav>
+    <br>
+    <hr id="intro">
+    <h1 id="title">Intro</h1>
+    <hr>
+    <div>
+        <b>단국대학교 죽전캠퍼스 <br>소프트웨어학과 32211034 김종빈</b>
+        <p>현재 <b>웹</b>에 관해 관심이 많고 <b>블록체인</b> 기술에 괸심이 많다.</p>
+        <p>2022년 1월부터 학부연구생을 시작했다. <br> <b>Flask</b>를 이용한 게시판을 만들었었고,<br>
+            최근 인기 있어진 <b>Flutter</b> 프레임워크를 이용한 UI 페이지,<br>
+            위 두가지를 이용한 간단한 채팅앱을 만들었다.<br>
+            현재도 웹 개발에 대해 더 익숙해지고자 공부를 진행하고 있으며,<br>
+            블록체인 공부를 하고 있다.
+        </p>
+        <table>
+            <tr>
+              <td><img class="exampleImg" alt="" src="FlutterEx.png" width=300px/></td>
+              <td><img class="exampleImg" alt="채팅 페이지만 삽입" src="chattingPageOnly.png" width=150px/></td>
+            <tr>
+          </table>
+    </div>
+    <br>
+    <hr id="aboutMe">
+    <h1 id="title">About Me</h1>
+    <hr>
+    <div>
+        <h2>What I like</h2>
+       
+            <b><i>Kendo</i></b>
+            <p>단국대 검도부 차장을 맡고 있으며, 신입 부원의 검도 지도, 간단한 행정을 돕고 있다.</p>
+            <br>
+
+            <b><i>Karaoke</i></b>
+            <p>노래방을 좋아해서 쌍둥이와 자주 노래방에 간다.<br>
+                (씽둥이는 단국대학교 정보통계학과에 재학 중이다.)
+            </p>
+            <br>
+
+            <b><i>Game</i></b>
+            <p>게임을 좋아한다. 주로 롤과 배틀그라운드를 한다.</p>
+            <br>
+
+            <b><i>Work Out</i></b>
+            <p>최근 운동을 다시 하고 있다.</p>
+            <br>
+    </div>
+    <hr id="licenses">
+    <h1>Licenses</h1>
+    <hr>
+    <div id="licenses">
+        <p>
+            (자랑할만한 자격증은 아니지만 정보처리기능사 자격증과 단국대에서 코멘토와 제휴하여 오픈한 부트캠프 수료증이 있다.)
+            <br>
+            <img alt="li1" src="li1.png" width="500"><br>
+            <img alt="comento" src="bootcamp.png" width="400">
+        </p>
+        <br>
+    </div>
+    <hr id="contacts">
+    <h1 id="title">Contacts</h1>
+    <hr>
+    <div>
+        <p>
+            GitHub > https://github.com/KimJongBin01
+            <br><br>
+            Phone > 010-3724-2428
+            <br><br>
+            e-mail > jbb6514@naver.com
+            <br><br>
+        </p>
+    </div>
+</body>
+</html>
