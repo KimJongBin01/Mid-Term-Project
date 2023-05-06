@@ -31,3 +31,33 @@ a{
     font-size: 20px;
     display: block;
 }
+
+ul{
+    list-style: none;
+    width: 220px;
+}
+li{
+    padding-top: 10px;
+    width: 200px;
+}
+li a:hover{
+    background-color: burlywood;
+    color: black;
+}
+hr{
+    border: 0;
+    background: saddlebrown;
+    height: 3px;
+   
+    
+}
+.exampleImg{
+    padding-right: 100px;
+}
+
+#title{
+   
+    text-align: center;
+    text-align: center;
+    transform: translateX(10%);
+}
