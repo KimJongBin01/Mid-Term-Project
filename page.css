@@ -1,0 +1,13 @@
+nav{
+    width: 220px;
+    background-color: saddlebrown;
+    position: fixed;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: burlywood;
+}
